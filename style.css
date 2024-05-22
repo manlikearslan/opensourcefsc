@@ -119,5 +119,17 @@ body{
     font-family: 'DM Sans',sans-serif;
     background-color: var(--secondary);
     border: 2px solid black;
+    box-shadow: 2px 2px black;
+    transition: 0.2s;
 
 }
+.cardButton:hover{
+    color: var(--primary);
+    transition: 0.2s;
+}
+
+/* MAIN PAGE CSS ENNNND */
+
+/* ---------------------------------------------------------------- */
+
+/* FOOTER CSS STAAAAART */
