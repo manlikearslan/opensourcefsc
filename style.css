@@ -5,11 +5,7 @@
     --background: #f2edfe;
     --primary: #5214f6;
     --secondary: #fa6c81;
-    --accent: #f88a4a;
-    
-    
-
-    
+    --accent: #f88a4a;  
 }
 
 *{
@@ -106,4 +102,22 @@ body{
 .cardTitle{
     text-align: center;
     font-family: "DM Sans", sans-serif;
+}
+.cardPara{
+    font-family: 'DM Sans', sans-serif;
+    text-align: center;
+    margin: 10px 0 10px 0;
+}
+
+.cardButton{
+    display: flex;
+    margin: auto;
+    padding: 5px 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'DM Sans',sans-serif;
+    background-color: var(--secondary);
+    border: 2px solid black;
+
 }
